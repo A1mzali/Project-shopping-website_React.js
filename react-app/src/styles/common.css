@@ -1,0 +1,16 @@
+::root {
+  --textColor : #000000;
+  
+}
+
+
+body {
+  font-family: 'Poppins', sans-serif;
+  color: var(--textColor);
+}
+
+.container {
+  min-width: 1780px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
