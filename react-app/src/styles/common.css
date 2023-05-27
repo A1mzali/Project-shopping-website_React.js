@@ -1,6 +1,8 @@
 ::root {
   --textColor : #000000;
   
+  --yellow : #EBD96B;
+  
 }
 
 
@@ -10,7 +12,7 @@ body {
 }
 
 .container {
-  min-width: 1780px;
+  max-width: 1780px;
   margin: 0 auto;
   padding: 0 30px;
 }
