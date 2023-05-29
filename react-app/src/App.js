@@ -1,7 +1,9 @@
 import React from "react";
 import Header from "./components/header/Header";
 import Promo from "./components/promo/Promo";
-import Promo from "./components/brands/Brands";
+import Brands from "./components/brands/Brands";
+import Arrivals from "./components/arrivals/Arrivals";
+
 
 
 
@@ -11,6 +13,7 @@ function App() {
       <Header />
       <Promo/>
       <Brands/>
+      <Arrivals />
     </div>
   );
 }
